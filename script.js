@@ -1,7 +1,7 @@
 // 1. Pilih tombol berdasarkan ID-nya
-conts tombolamba = document.getElementById('amba saya!');
+conts ambaButton = document.getElementById('amba saya!');
 // 2. Tambahkan 'event listener' untuk aksi 'click'
-tombolamba.addEventlistener('click', function() {
+ambaButton.addEventlistener('click', function() {
   // 3. Jalankan kode ini ketika tombol di-klik
   alert('Halo! Terimakasih sudah berkunjung!');
 });
