@@ -1,69 +1,32 @@
 body {
-    background-color: #3cb371;
-    font-family: Arial, sans-serif;
-    color: #890f2d;
+    background-color: #0b192c; /* Warna biru gelap */
+    font-family: Arial, sans-serif; /* Jenis huruf yang bersih dan mudah dibaca */
+    color: #e0f2fe; /* Warna teks utama (Biru sangat muda) */
 }
 
-/* Styling untuk kotak kartu profil */
 .kartu-profil {
     width: 300px;
-    margin: 50px auto;
+    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
     padding: 20px;
-    background-color: white;
-    border-radius: 15px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    background-color: #132743; /* Warna biru kartu */
+    border-radius: 15px; /* Membuat sudut menjadi melengkung */
+    box-shadow: 0 0 25px rgba(0, 150, 255, 0.6); /* Efek bayangan cahaya biru (ambient light) */
+    text-align: center; /* Menengahkan semua teks di dalam kartu */
 }
 
-/* Styling otomatis untuk foto di dalam kartu profil agar bulat & rapi */
 .kartu-profil img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%; /* Membuat foto jadi lingkaran sempurna */
-    object-fit: cover;  /* Mencegah gambar terlihat gepeng/terdistorsi */
-    margin-bottom: 15px;
-    border: 3px solid #3cb371; /* Bingkai hijau di sekeliling foto */
-}
-
-/* Styling untuk judul / nama */
-.kartu-profil h1 {
-    font-size: 22px;
+    width: 120px;  
+    height: 120px; 
+    border-radius: 50%; 
+    object-fit: cover;  
+    border: 3px solid #38bdf8; 
     margin-bottom: 10px;
-    color: #333;
 }
 
-/* Styling untuk teks deskripsi */
-.kartu-profil p {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 15px;
-    line-height: 1.4;
-}
-
-/* Styling untuk link Instagram */
-.kartu-profil a {
-    display: inline-block;
-    margin-bottom: 15px;
-    color: #3cb371;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.kartu-profil a:hover {
-    text-decoration: underline;
-}
-
-/* Styling untuk tombol */
-.kartu-profil button {
-    background-color: #3cb371;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.kartu-profil button:hover {
-    background-color: #2e8b57;
+.kartu-profil a:link, 
+.kartu-profil a:visited, 
+.kartu-profil a:hover, 
+.kartu-profil a:active {
+    color: #38bdf8; 
+    text-decoration: underline; 
 }
