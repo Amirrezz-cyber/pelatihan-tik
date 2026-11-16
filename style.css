@@ -16,7 +16,7 @@ body {
 }
 
 /* Styling untuk foto profil agar bulat dan rapi */
-.foto-profil {
+.foto profil {
     width: 100px;
     height: 100px;
     border-radius: 50%; /* Membuat foto jadi lingkaran sempurna */
